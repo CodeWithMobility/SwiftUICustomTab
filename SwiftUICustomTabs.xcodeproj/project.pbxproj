@@ -14,6 +14,13 @@
 		1D006BD02CB2E2B500D1EC12 /* SwiftUICustomTabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D006BCF2CB2E2B500D1EC12 /* SwiftUICustomTabsTests.swift */; };
 		1D006BDA2CB2E2B500D1EC12 /* SwiftUICustomTabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D006BD92CB2E2B500D1EC12 /* SwiftUICustomTabsUITests.swift */; };
 		1D006BDC2CB2E2B500D1EC12 /* SwiftUICustomTabsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D006BDB2CB2E2B500D1EC12 /* SwiftUICustomTabsUITestsLaunchTests.swift */; };
+		1D006BEA2CB3086500D1EC12 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D006BE92CB3086500D1EC12 /* TabItem.swift */; };
+		1D006BEF2CB308DC00D1EC12 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D006BEE2CB308DC00D1EC12 /* HomeView.swift */; };
+		1D006BF12CB3090100D1EC12 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D006BF02CB3090100D1EC12 /* SearchView.swift */; };
+		1D006BF32CB3092100D1EC12 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D006BF22CB3092100D1EC12 /* NotificationsView.swift */; };
+		1D006BF52CB3092F00D1EC12 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D006BF42CB3092F00D1EC12 /* ProfileView.swift */; };
+		1D006BF82CB309D100D1EC12 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D006BF72CB309D100D1EC12 /* CustomTabBar.swift */; };
+		1D006BFD2CB30A8C00D1EC12 /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D006BFC2CB30A8C00D1EC12 /* ExtensionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		1D006BD52CB2E2B500D1EC12 /* SwiftUICustomTabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUICustomTabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D006BD92CB2E2B500D1EC12 /* SwiftUICustomTabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICustomTabsUITests.swift; sourceTree = "<group>"; };
 		1D006BDB2CB2E2B500D1EC12 /* SwiftUICustomTabsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICustomTabsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1D006BE92CB3086500D1EC12 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		1D006BEE2CB308DC00D1EC12 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1D006BF02CB3090100D1EC12 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		1D006BF22CB3092100D1EC12 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		1D006BF42CB3092F00D1EC12 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1D006BF72CB309D100D1EC12 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		1D006BFC2CB30A8C00D1EC12 /* ExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +108,10 @@
 		1D006BBD2CB2E2B400D1EC12 /* SwiftUICustomTabs */ = {
 			isa = PBXGroup;
 			children = (
+				1D006BFB2CB30A5A00D1EC12 /* Extensions */,
+				1D006BF62CB309BA00D1EC12 /* CustomViews */,
+				1D006BED2CB308C500D1EC12 /* Views */,
+				1D006BE82CB3084E00D1EC12 /* Models */,
 				1D006BBE2CB2E2B400D1EC12 /* SwiftUICustomTabsApp.swift */,
 				1D006BC02CB2E2B400D1EC12 /* ContentView.swift */,
 				1D006BC22CB2E2B500D1EC12 /* Assets.xcassets */,
@@ -125,6 +143,41 @@
 				1D006BDB2CB2E2B500D1EC12 /* SwiftUICustomTabsUITestsLaunchTests.swift */,
 			);
 			path = SwiftUICustomTabsUITests;
+			sourceTree = "<group>";
+		};
+		1D006BE82CB3084E00D1EC12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D006BE92CB3086500D1EC12 /* TabItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D006BED2CB308C500D1EC12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D006BEE2CB308DC00D1EC12 /* HomeView.swift */,
+				1D006BF02CB3090100D1EC12 /* SearchView.swift */,
+				1D006BF22CB3092100D1EC12 /* NotificationsView.swift */,
+				1D006BF42CB3092F00D1EC12 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D006BF62CB309BA00D1EC12 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				1D006BF72CB309D100D1EC12 /* CustomTabBar.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		1D006BFB2CB30A5A00D1EC12 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1D006BFC2CB30A8C00D1EC12 /* ExtensionView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +310,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D006BF12CB3090100D1EC12 /* SearchView.swift in Sources */,
+				1D006BFD2CB30A8C00D1EC12 /* ExtensionView.swift in Sources */,
 				1D006BC12CB2E2B400D1EC12 /* ContentView.swift in Sources */,
+				1D006BEF2CB308DC00D1EC12 /* HomeView.swift in Sources */,
 				1D006BBF2CB2E2B400D1EC12 /* SwiftUICustomTabsApp.swift in Sources */,
+				1D006BF82CB309D100D1EC12 /* CustomTabBar.swift in Sources */,
+				1D006BEA2CB3086500D1EC12 /* TabItem.swift in Sources */,
+				1D006BF52CB3092F00D1EC12 /* ProfileView.swift in Sources */,
+				1D006BF32CB3092100D1EC12 /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
